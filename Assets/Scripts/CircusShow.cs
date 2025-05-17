@@ -4,19 +4,37 @@ using UnityEngine;
 
 public class CircusShow : MonoBehaviour
 {
-    public AlienPerformer performer;
+    public AlienPerformer Performer;
     public Planet ShowPlanet;
 
-    private int AudienceCount = 100;
+    private int AudienceCount;
 
 
-    void Start()
+   public CircusShow(AlienPerformer performer, Planet planet)
     {
-       
+        Performer = performer;
+        ShowPlanet = planet;
+
+        //Si el planeta es hostil, menos público
+        AudienceCount = ShowPlanet.GetIsHostile() ? Random.Range(0, 10) : Random.Range(0, 10);
+
+
     }
 
-    void Update()
+    public void StarShow()
     {
-        
+        Debug.Log($"Comienza la funcion en {ShowPlanet.planetName} con {AudienceCount} espectadores.");
+
+        Performer.PerformTrick(ShowPlanet.gravity);
+
+        Debug.Log($"La función ha terminado.");
+
     }
+
+
+    public int GetAudienceCount()
+        { return AudienceCount; }
+    
+
+
 }

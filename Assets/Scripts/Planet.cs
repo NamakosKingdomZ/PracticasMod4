@@ -5,22 +5,29 @@ using UnityEngine;
 public class Planet : CircusShow
 {
     //Public Attributes
-    public string planetName = "Jupiter";
-    public float gravity = 5f;
+    public string planetName;
+    public float gravity;
     
     //Private Attributes
-    private bool IsHostile = false;
+    private bool IsHostile;
     
     
-    
-    
-    void Start()
+    public Planet(string planetName, float gravity, bool isHostile)
     {
-        
+        this.planetName = planetName;
+        this.gravity = gravity;
+        IsHostile = isHostile;
     }
 
-    void Update()
-    {
-        
-    }
+    public bool GetIsHostile()
+        { return IsHostile; }
+
+
+
+
+
+
+
 }
+
+
