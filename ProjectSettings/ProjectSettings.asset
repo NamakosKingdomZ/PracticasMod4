@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 23cfda7d67965e6409ac6add93bbe4c5
+  productGUID: 66c96fe4af711e446a15c91ba83b9bf4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: PracticasMod4
+  productName: PracticasModulo4
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -773,14 +773,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: PracticasMod4
+  metroPackageName: PracticasModulo4
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: PracticasMod4
+  metroApplicationDescription: PracticasModulo4
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -850,10 +850,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 3c7df662-c228-45bf-8911-4164650e2d28
+  cloudProjectId: a4f28084-a35a-45e4-b6f9-e8eeaf1c343f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: PracticasMod4
+  projectName: PracticasModulo4 2025-05-17_08-46-35
   organizationId: namakoskingdomz
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
