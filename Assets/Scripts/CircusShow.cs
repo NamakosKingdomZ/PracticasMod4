@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircusShow : MonoBehaviour
+public class CircusShow
 {
     public AlienPerformer Performer;
     public Planet ShowPlanet;
