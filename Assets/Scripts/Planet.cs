@@ -16,7 +16,7 @@ public class Planet : CircusShow
     {
         this.planetName = planetName;
         this.gravity = gravity;
-        IsHostile = isHostile;
+        this.IsHostile = isHostile;
     }
 
     public bool GetIsHostile()

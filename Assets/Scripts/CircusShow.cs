@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CircusShow
+public class CircusShow : MonoBehaviour 
 {
     public AlienPerformer Performer;
     public Planet ShowPlanet;
@@ -10,7 +10,13 @@ public class CircusShow
     private int AudienceCount;
 
 
-   public CircusShow(AlienPerformer performer, Planet planet)
+
+
+    private void Start()
+    {
+        StarShow();
+    }
+    public void Initialize(AlienPerformer performer, Planet planet)
     {
         Performer = performer;
         ShowPlanet = planet;
